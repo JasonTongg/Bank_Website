@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Jason's Bank</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <p class="navbar__paragraph">Log in to get started</p>
+      <img src="./logo.png" alt="Logo" class="navbar__logo" />
+      <form class="form">
+        <input type="text" class="navbar__form__userName" placeholder="user" />
+        <input type="text" class="navbar__form__pin" placeholder="PIN" />
+        <button class="navbar__form__submit">&rArr;</button>
+      </form>
+    </nav>
+    <section class="contentContainer">
+      <section class="content">
+        <div class="content__left">
+          <div class="content__left--header">
+            <h2 class="content__left--header--h2">Current Balance</h2>
+            <p class="content__left--header--paragraph">As of 05/03/2037</p>
+          </div>
+          <div class="content__left--balanceList">
+            <div class="content__left--balanceList--item">
+              <div
+                class="content__left--balanceList--item--paragraphContainer deposit"
+              >
+                <p class="content__left--balanceList--item--paragraph">
+                  1 Deposit
+                </p>
+              </div>
+              <p class="content__left--balanceList--item--date">
+                01/03/2001
+              </p>
+              <h2 class="content__left--balanceList--item--h2">70€</h2>
+            </div>
+            <div class="content__left--balanceList--item">
+              <div
+                class="content__left--balanceList--item--paragraphContainer withdraw"
+              >
+                <p class="content__left--balanceList--item--paragraph">
+                  1 Withdraw
+                </p>
+              </div>
+              <p class="content__left--balanceList--item--date">
+                01/03/2001
+              </p>
+              <h2 class="content__left--balanceList--item--h2">-70€</h2>
+            </div>
+          </div>
+          <div class="content__left--info">
+            <div class="content__left--info--infoleft">
+              <div class="content__left--info--in">IN <span> 1000€</span></div>
+              <div class="content__left--info--out">OUT <span> 200€</span></div>
+              <div class="content__left--info--interest">
+                INTEREST <span> 700€</span>
+              </div>
+            </div>
+            <button class="content__left--info--sort">&dArr;Sort</button>
+            <p class="content__left--info--time">Log out in <span>05:00</span></p>
+          </div>
+        </div>
+        <div class="content__right">
+          <p class="content__right--balance">3000€</p>
+          <div class="content__right--transfer">
+            <p class="content__right--transfer--header">Transfer Money</p>
+            <form class="content__right--transfer--container">
+              <div class="content__right--transfer--transferTo">
+                <input
+                  type="text"
+                  class="content__right--transfer--transferTo--input"
+                />
+                <p
+                  type="text"
+                  class="content__right--transfer--transferTo--paragraph"
+                >
+                  Transfer To
+                </p>
+              </div>
+              <div class="content__right--transfer--amount">
+                <input
+                  type="text"
+                  class="content__right--transfer--amount--input"
+                />
+                <p
+                  type="text"
+                  class="content__right--transfer--amount--paragraph"
+                >
+                  Amount
+                </p>
+              </div>
+              <button class="content__right--transfer--submit">&rArr;</button>
+            </form>
+          </div>
+          <div class="content__right--request">
+            <p class="content__right--request--header">Request Loan</p>
+            <form class="content__right--request--container">
+              <div class="content__right--request--amount">
+                <input
+                  type="text"
+                  class="content__right--request--amount--input"
+                />
+                <p
+                  type="text"
+                  class="content__right--request--amount--paragraph"
+                >
+                  Amount
+                </p>
+              </div>
+              <button class="content__right--request--submit">&rArr;</button>
+          </form>
+        </div>
+        <div class="content__right--close">
+          <p class="content__right--close--header">Close Account</p>
+            <form class="content__right--close--container">
+              <div class="content__right--close--confirmUser">
+                <input
+                  type="text"
+                  class="content__right--close--confirmUser--input"
+                />
+                <p
+                  type="text"
+                  class="content__right--close--confirmUser--paragraph"
+                >
+                  Username
+                </p>
+              </div>
+              <div class="content__right--close--confirmPin">
+                <input
+                  type="text"
+                  class="content__right--close--confirmPin--input"
+                />
+                <p
+                  type="text"
+                  class="content__right--close--confirmPin--paragraph"
+                >
+                  Pin
+                </p>
+              </div>
+              <button class="content__right--close--submit">&rArr;</button>
+        </form>
+      </section>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
