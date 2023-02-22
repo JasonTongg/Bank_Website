@@ -299,7 +299,7 @@ function displayInOut(list) {
   ).format(int.toFixed(2))}</span>`;
 
   //time
-  let milisec = 20;
+  let milisec = 400;
 
   if (autoLogOut !== undefined) {
     clearInterval(autoLogOut);
