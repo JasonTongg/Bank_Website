@@ -142,7 +142,6 @@ navbarForm.addEventListener('submit', (e) => {
     ) {
       contentContainer.style.opacity = 100;
       currAccount = item;
-      alert('tes');
     }
   });
 
