@@ -96,7 +96,7 @@ html {
           box-shadow: 0.1rem 0.1rem 3rem #b4b4b4;
   margin-right: 2rem;
   padding: 2rem;
-  padding-block: .8rem;
+  padding-block: 0.8rem;
   text-align: center;
   font-size: 1.5rem;
   outline: none;
@@ -142,11 +142,11 @@ html {
   width: 100%;
   height: calc(100vh - 8rem);
   opacity: 100;
-  transition: .3s;
-  -webkit-transition: .3s;
-  -moz-transition: .3s;
-  -ms-transition: .3s;
-  -o-transition: .3s;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
   transform: translateX(10rem);
   -webkit-transform: translateX(10rem);
   -moz-transform: translateX(10rem);
@@ -269,7 +269,7 @@ html {
 }
 
 .content__left--balanceList--item--paragraphContainer {
-  padding-block: .6rem;
+  padding-block: 0.6rem;
   padding-inline: 1rem;
   border-radius: 100px;
   -webkit-border-radius: 100px;
@@ -297,6 +297,8 @@ html {
       -ms-flex-align: center;
           align-items: center;
   width: 185%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 @media only screen and (max-width: 29.375em) {
@@ -319,6 +321,8 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .content__left--info--in, .content__left--info--out, .content__left--info--interest {
@@ -495,11 +499,11 @@ html {
   margin-right: 2rem;
   border: none;
   width: 100%;
-  border-radius: .5rem;
-  -webkit-border-radius: .5rem;
-  -moz-border-radius: .5rem;
-  -ms-border-radius: .5rem;
-  -o-border-radius: .5rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
   background-color: rgba(255, 255, 255, 0.5);
   outline: none;
   padding-inline: 1rem;
@@ -519,7 +523,7 @@ html {
 
 .content__right--transfer--transferTo--paragraph, .content__right--transfer--amount--paragraph {
   text-align: center;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
   font-size: 1.3rem;
 }
 
@@ -542,7 +546,7 @@ html {
 @media only screen and (max-width: 29.375em) {
   .content__right--transfer--transferTo--paragraph, .content__right--transfer--amount--paragraph {
     width: 100%;
-    argin-top: .8rem;
+    argin-top: 0.8rem;
     display: block;
   }
 }
@@ -554,11 +558,11 @@ html {
   font-size: 2rem;
   text-align: center;
   background-color: white;
-  border-radius: .5rem;
-  -webkit-border-radius: .5rem;
-  -moz-border-radius: .5rem;
-  -ms-border-radius: .5rem;
-  -o-border-radius: .5rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
   background-color: white;
   cursor: pointer;
   outline: none;
@@ -604,11 +608,11 @@ html {
   height: 2.8rem;
   border: none;
   width: 100%;
-  border-radius: .5rem;
-  -webkit-border-radius: .5rem;
-  -moz-border-radius: .5rem;
-  -ms-border-radius: .5rem;
-  -o-border-radius: .5rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
   background-color: rgba(255, 255, 255, 0.5);
   outline: none;
   padding-inline: 1rem;
@@ -616,7 +620,7 @@ html {
 
 .content__right--request--amount--paragraph {
   text-align: center;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
   font-size: 1.3rem;
 }
 
@@ -627,11 +631,11 @@ html {
   font-size: 2rem;
   text-align: center;
   background-color: white;
-  border-radius: .5rem;
-  -webkit-border-radius: .5rem;
-  -moz-border-radius: .5rem;
-  -ms-border-radius: .5rem;
-  -o-border-radius: .5rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
   background-color: white;
   cursor: pointer;
 }
@@ -726,11 +730,11 @@ html {
   margin-right: 2rem;
   border: none;
   width: 100%;
-  border-radius: .5rem;
-  -webkit-border-radius: .5rem;
-  -moz-border-radius: .5rem;
-  -ms-border-radius: .5rem;
-  -o-border-radius: .5rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
   background-color: rgba(255, 255, 255, 0.5);
   outline: none;
   padding-inline: 1rem;
@@ -750,7 +754,7 @@ html {
 
 .content__right--close--confirmUser--paragraph, .content__right--close--confirmPin--paragraph {
   text-align: center;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
   font-size: 1.3rem;
 }
 
@@ -773,7 +777,7 @@ html {
 @media only screen and (max-width: 29.375em) {
   .content__right--close--confirmUser--paragraph, .content__right--close--confirmPin--paragraph {
     width: 100%;
-    margin-top: .8rem;
+    margin-top: 0.8rem;
     display: block;
   }
 }
@@ -785,11 +789,11 @@ html {
   font-size: 2rem;
   text-align: center;
   background-color: white;
-  border-radius: .5rem;
-  -webkit-border-radius: .5rem;
-  -moz-border-radius: .5rem;
-  -ms-border-radius: .5rem;
-  -o-border-radius: .5rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
   background-color: white;
   cursor: pointer;
 }
