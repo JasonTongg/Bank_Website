@@ -62,7 +62,7 @@ let closeButton = document.querySelector('.content__right--close--submit');
 
 //database
 let acc1 = {
-  name: 'Jason Tong',
+  name: 'Jason',
   password: 111,
   balanceHistory: [100, 200, -345, 134, -64, 135, 234, 98],
   interest: 1.5,
@@ -81,7 +81,7 @@ let acc1 = {
 };
 
 let acc2 = {
-  name: 'Jouis Callista',
+  name: 'Jouis',
   password: 222,
   balanceHistory: [200, 543, -842, 641, -23, -135, 983, 186],
   interest: 1.2,
@@ -100,7 +100,7 @@ let acc2 = {
 };
 
 let acc3 = {
-  name: 'Chris Jericho',
+  name: 'Chris',
   password: 333,
   balanceHistory: [947.42, -264.3456, 638.352, -231, 986, -252, 136.67, -332],
   interest: 1.7,
@@ -137,7 +137,7 @@ navbarForm.addEventListener('submit', (e) => {
   e.preventDefault();
   accs.forEach((item, index) => {
     if (
-      navUserName.value === item.name &&
+      navUserName.value.toLowerCase() === item.name.toLowerCase() &&
       Number(navPin.value) === item.password
     ) {
       contentContainer.style.opacity = 100;
